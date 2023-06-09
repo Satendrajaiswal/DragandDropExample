@@ -1,0 +1,27 @@
+.container {
+    border: 2px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .item {
+    background-color: #2cabea;
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: grab;
+  }
+  
+  .item.dragging {
+    opacity: 0.5;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  .item-center{
+    text-align: center;
+    
+  }
